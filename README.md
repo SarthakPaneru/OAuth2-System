@@ -36,6 +36,7 @@ Here is a simple system workflow of OAuth2
 * Use client-id and client-secret which is available in application-dev.properties that is not available in github as github strictly prohibited publicly uploading confidential keys.
 * The application provides access token but not refresh token as to get it  the users has to provide consent every time which feels unnecessary.
 > * We can use access_type=offline&prompt=consent instead to generate refresh token.
+![Google OAuth2](https://github.com/SarthakPaneru/OAuth2-System/blob/main/Screenshots/Get%20login%20username%20from%20google.png)
 
 ## TEST CASE
 I have written tests in Resource server which get access token from auth-server and use the token to access protected resource in resource server. As seen in screenshots provided the test case has both passed with a valid access token that gets 200 status code while invalid access token gets 401 status code.
