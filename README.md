@@ -55,6 +55,7 @@ Step to get Authorization code:
 
 * Paste the code after ?code= to the authorization code string.
 * Then run the test cases and validate the code/server.
+![Test Case](https://github.com/SarthakPaneru/OAuth2-System/blob/main/Screenshots/test_cases.png)
 
 ## FLOW
 * Run both Auth-server and resource server
